@@ -17,7 +17,7 @@ void setup() {
   digitalWrite(D2,0);
   WiFi.mode(WIFI_AP);
   WiFi.softAPConfig(local_IP,local_IP,subnet);
-  WiFi.softAP("Bahrami", "12345678");
+  WiFi.softAP("Babak44", "12345678");
   Serial.print("Wifi Ap IP = ");
   Serial.println(WiFi.softAPIP());
   server.on("/", handleRoot);
